@@ -718,3 +718,406 @@ font-weight: 400;
 color: #717171;
 margin-top: -10px;
 }
+.price-div{
+    display: flex;
+align-items: center;
+align-self: stretch;
+}
+.fullprice-month{
+    display: flex;
+padding: 40px;
+flex-direction: column;
+align-items: flex-start;
+gap: 35px;
+flex: 1 0 0;
+border-radius: 20px;
+background-color: #2886EB;
+max-width:  530px;
+}
+.h1-fullprice{
+    color: #FFF;
+font-family: SF Pro Display;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+width: 420px;
+margin-bottom: 0;
+}
+.h3-fullprice{
+    color: #16395F;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 600;
+margin-top: -10px;
+margin-bottom: 0;
+}
+.btn-fullprice{
+    display: flex;
+padding: 10px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 12px;
+background-color: #fff;
+border-color: #fff;
+margin-top: 0;
+font-family: SF Pro Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+color: rgba(0, 0, 0, 0.65);
+cursor: pointer;
+}
+.h1-price-installment{
+    font-family: SF Pro Display;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+color: #222222;
+margin-bottom: 0;
+}
+.installment-div{   
+   background-color:  rgba(0, 0, 0, 0.04);
+    display: flex;
+padding: 40px;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+flex: 1 0 0;
+border-radius: 0px 25px 25px 0px;
+max-height: 214px;
+}
+.p-price-installment{
+    font-family: SF Pro Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+color: #222222;
+margin-top: 0;
+}
+.comments-videos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    align-self: stretch;
+
+}
+.h1-comments-videos{
+    font-family: SF Pro Display;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+color: #222222;
+}
+.grider3{
+    display: grid;
+    grid-template-columns: 288.75px 288.75px 288.75px 288.75px;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+.comment1{
+    display: flex;
+padding: 15px;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+align-self: stretch;
+background-color: rgba(0, 0, 0, 0.04);
+border-radius: 20px;
+}
+.name1{
+    font-family: SF Pro Display;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+color: #222222;
+position: absolute;
+margin-left: 80px;
+width: 122px;
+height: 24px;
+margin-top: 0;
+}
+.date1{
+    font-family: SF Pro Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+width: 122px;
+height: 40px;
+color: #767676;
+position: absolute;
+margin-left: 80px;
+margin-top: 20px;
+}
+.comment2{
+    display: flex;
+padding: 15px;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+align-self: stretch;
+background-color: rgba(0, 0, 0, 0.04);
+border-radius: 20px;
+max-height: 282px;
+}
+.name2{
+    font-family: SF Pro Display;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+color: #222222;
+position: absolute;
+margin-left: 80px;
+margin-top: 0;
+}
+.date2{
+    font-family: SF Pro Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+color: #767676;
+position: absolute;
+margin-left: 80px;
+margin-top: 20px;
+width: 122px;
+height: 40px;
+}
+.commented2{
+    font-family: SF Pro Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+color: #000;
+margin-top: 0;
+line-height: 140%;
+}
+.comment3{
+    display: flex;
+padding: 15px;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+align-self: stretch;
+border-radius: 20px;
+background-color: rgba(0, 0, 0, 0.04);
+}
+.name3{
+    font-family: SF Pro Display;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+color: #222222;
+position: absolute;
+margin-left: 80px;
+margin-top: 0;
+
+}
+.date3{
+    font-family: SF Pro Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+color: #767676;
+position: absolute;
+margin-left: 80px;
+margin-top: 20px;
+width: 122px;
+height: 40px;
+}
+.comment4{
+    display: flex;
+padding: 15px;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+align-self: stretch;
+border-radius: 20px;
+background-color: rgba(0, 0, 0, 0.04);
+max-height: 436px;
+}
+.name4{
+    font-family: SF Pro Display;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+color: #222222;
+position: absolute;
+margin-left: 80px;
+margin-top: 0;
+}
+.date4{
+    font-family: SF Pro Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+color: #767676;
+position: absolute;
+margin-left: 80px;
+margin-top: 20px;
+width: 122px;
+height: 40px;
+}
+.commented4{
+    font-family: SF Pro Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%;
+margin-top: -5px;
+}
+.comment5{
+    display: flex;
+padding: 15px;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+align-self: stretch;
+border-radius: 20px;
+background-color: rgba(0, 0, 0, 0.04);
+max-height: 375px;
+}
+.name5{
+    font-family: SF Pro Display;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+color: #222222;
+position: absolute;
+margin-left: 80px;
+margin-top: 0;
+}
+.date5{
+    font-family: SF Pro Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+color: #767676;
+position: absolute;
+margin-left: 80px;
+margin-top: 20px;
+width: 122px;
+height: 40px;
+}
+.commented5{
+    font-family: SF Pro Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+color: #000;
+margin-top: 0;
+margin-bottom: 0;
+line-height: 140%;
+}
+.comment6{
+    display: flex;
+padding: 15px;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+align-self: stretch;
+border-radius: 20px;
+background-color: rgba(0, 0, 0, 0.04);
+margin-top: -195px;
+max-height: 477px;
+}
+.name6{
+    font-family: SF Pro Display;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+color: #222222;
+position: absolute;
+margin-left: 80px;
+margin-top: 0;
+}
+.date6{
+    font-family: SF Pro Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+color: #767676;
+position: absolute;
+margin-left: 80px;
+margin-top: 20px;
+width: 122px;
+height: 40px;
+}
+.comment7{
+    display: flex;
+padding: 15px;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+align-self: stretch;
+border-radius: 20px;
+background-color: rgba(0, 0, 0, 0.04);
+max-height: 350px;
+}
+.name7{
+    font-family: SF Pro Display;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+color: #222222;
+position: absolute;
+margin-left: 80px;
+margin-top: 0;
+}
+.date7{
+    font-family: SF Pro Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+color: #767676;
+position: absolute;
+margin-left: 80px;
+margin-top: 20px;
+width: 122px;
+height: 40px;
+}
+.commented7{
+    font-family: SF Pro Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%;
+color: #000;
+margin-top: 0;
+}
+.comment8{
+    display: flex;
+padding: 15px;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+align-self: stretch;
+border-radius: 20px;
+background-color: rgba(0, 0, 0, 0.04);
+margin-top: -40px;
+max-height: 507px;
+}
+.name8{
+    font-family: SF Pro Display;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+color: #222222;
+position: absolute;
+margin-left: 80px;
+margin-top: 0;
+}
+.date8{
+    font-family: SF Pro Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+color: #767676;
+position: absolute;
+margin-left: 80px;
+margin-top: 20px;
+width: 122px;
+height: 40px;
+}
+
