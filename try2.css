@@ -38,6 +38,22 @@ font-weight: 400;
 text-decoration: none;
 color: #222222;
 }
+/* .nav-div a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    left:0px;
+    bottom: -6px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: #2886EB;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 0.5s;
+}
+.nav-div a:hover:after{
+    transform: scaleX(1);
+} */
 .nav-div-h1{
     margin-right: 225px;
 }
@@ -127,7 +143,7 @@ margin-left: 650px;
 }
 .learning{
     display: flex;
-width: 1200px;
+width: 1100px;
 padding: 55px 55px 0px 55px;
 align-items: flex-start;
 background-color: rgba(0, 0, 0, 0.04);
@@ -177,7 +193,7 @@ cursor: pointer;
 .learning-img{
     height: 370px;
     position: absolute;
-    margin-left: 600px;
+    margin-left: 500px;
     margin-top: 35px;
 }
 .notes{
@@ -205,6 +221,7 @@ color: #222222;
 width: 614px;
 margin-bottom: 50px;
 margin-top: 0;
+line-height: 140%;
 }
 .note-1{
     display: flex;
@@ -517,6 +534,7 @@ align-self: stretch;
 border-radius: 20px;
 background: rgba(0, 0, 0, 0.04);
 flex-direction: column;
+max-width: 1100px;
 }
 .h4-review{
     font-family: SF Pro Display;
@@ -552,7 +570,7 @@ width: 725px;
     width: 355px;
 height: 276px;
 position: absolute;
-margin-left: 900px;
+margin-left: 750px;
 margin-top: -10px;
 margin-right: 50px;
 }
@@ -1119,5 +1137,160 @@ margin-left: 80px;
 margin-top: 20px;
 width: 122px;
 height: 40px;
+}
+.h1-logo-footer{
+    font-family: SF Pro Display;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+color: #222222;
+margin-bottom: 0;
+}
+.h1-logo-footer-color{
+    font-family: SF Pro Display;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+color: #2886EB;
+}
+.p-logo-footer{
+    font-family: SF Pro Display;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+color: #222222;
+margin-top: 0px;
+/* position: absolute;8 */
+}
+/* .footerg{
+    display: grid;
+    grid-template-columns: 250px 125px 157px 169px 140px;
+    grid-template-rows: 219px;
+} */
+.footer{
+    display: flex;
+padding: 75px 0px;
+align-items: flex-start;
+gap: 10px;
+align-self: stretch;
+}
+.footer-logo{
+    display: flex;
+width: 250px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 10px;
+height: 149px;
+/* padding: 75px 0px; */
+}
+.nav1{
+    display: flex;
+height: 149px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+margin-top: -45px;
+margin-right: 116.33px;
+}
+.h3-nav1{
+    font-family: SF Pro Display;
+font-size: 19px;
+font-style: normal;
+font-weight: 700;
+color: #2886EB;
+margin-bottom: 0;
+}
+.a-nav1{
+    font-family: SF Pro Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+color: #222222;
+margin-top: 0;
+text-decoration: none;
+}
+.nav2{
+    display: flex;
+height: 149px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+margin-top: -45px;
+margin-right: 116.33px;
+}
+.a-nav2{
+    font-family: SF Pro Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+color: #222222;
+text-decoration: none;
+margin-top: 0;
+}
+.h3-nav2{
+    font-family: SF Pro Display;
+font-size: 19px;
+font-style: normal;
+font-weight: 700;
+color: #2886EB;
+margin-bottom: 0;
+}
+.footer-nav{
+    display: flex;
+padding: 75px 0px;
+align-items: flex-start;
+gap: 10px;
+align-self: stretch;
+}
+.nav3{
+    display: flex;
+height: 149px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+margin-top: -45px;
+margin-right: 116.33px;
+}
+.h3-nav3{
+    font-family: SF Pro Display;
+font-size: 19px;
+font-style: normal;
+font-weight: 700;
+color: #2886EB;
+margin-bottom: 0;
+}
+.a-nav3{
+    font-family: SF Pro Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+color: #222222;
+text-decoration: none;
+margin-top: 0;
+}
+.nav4{
+    display: flex;
+height: 149px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+margin-top: -45px;
+}
+.a-nav4{
+    font-family: SF Pro Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #222222;
+    text-decoration: none;
+}
+.h3-nav4{
+    font-family: SF Pro Display;
+font-size: 19px;
+font-style: normal;
+font-weight: 700;
+color: #2886EB;
+margin-bottom: 0;
 }
 
